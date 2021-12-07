@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0DC3EC9-BDFD-418A-B295-A5888A22EF6E}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>6.2.1_msvc2019_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>6.2.1_msvc2019_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bai10_Tuan1.cpp" />
+    <ClCompile Include="Bai10_Tuan3.cpp" />
+    <ClCompile Include="Bai11_Tuan1.cpp" />
+    <ClCompile Include="Bai11_Tuan3.cpp" />
+    <ClCompile Include="Bai12_Tuan1.cpp" />
+    <ClCompile Include="Bai12_Tuan3.cpp" />
+    <ClCompile Include="Bai13_Tuan3.cpp" />
+    <ClCompile Include="Bai1_Tuan1.cpp" />
+    <ClCompile Include="Bai1_Tuan2.cpp" />
+    <ClCompile Include="Bai1_Tuan3.cpp" />
+    <ClCompile Include="Bai2_Tuan1.cpp" />
+    <ClCompile Include="Bai2_Tuan2.cpp" />
+    <ClCompile Include="Bai2_Tuan3.cpp" />
+    <ClCompile Include="Bai3_Tuan1.cpp" />
+    <ClCompile Include="Bai3_Tuan2.cpp" />
+    <ClCompile Include="Bai3_Tuan3.cpp" />
+    <ClCompile Include="Bai4_Tuan1.cpp" />
+    <ClCompile Include="Bai4_Tuan2.cpp" />
+    <ClCompile Include="Bai4_Tuan3.cpp" />
+    <ClCompile Include="Bai5_Tuan1.cpp" />
+    <ClCompile Include="Bai5_Tuan3.cpp" />
+    <ClCompile Include="Bai6_Tuan1.cpp" />
+    <ClCompile Include="Bai6_Tuan3.cpp" />
+    <ClCompile Include="Bai7_Tuan1.cpp" />
+    <ClCompile Include="Bai7_Tuan3.cpp" />
+    <ClCompile Include="Bai8_Tuan1.cpp" />
+    <ClCompile Include="Bai8_Tuan3.cpp" />
+    <ClCompile Include="Bai9_Tuan1.cpp" />
+    <ClCompile Include="Bai9_Tuan3.cpp" />
+    <ClCompile Include="funtion.cpp" />
+    <ClCompile Include="Tuan1.cpp" />
+    <ClCompile Include="Tuan2.cpp" />
+    <ClCompile Include="Tuan3.cpp" />
+    <QtRcc Include="HomeworkGUI.qrc" />
+    <QtUic Include="Bai10_Tuan1.ui" />
+    <QtUic Include="Bai10_Tuan3.ui" />
+    <QtUic Include="Bai11_Tuan1.ui" />
+    <QtUic Include="Bai11_Tuan3.ui" />
+    <QtUic Include="Bai12_Tuan1.ui" />
+    <QtUic Include="Bai12_Tuan3.ui" />
+    <QtUic Include="Bai13_Tuan3.ui" />
+    <QtUic Include="Bai1_Tuan1.ui" />
+    <QtUic Include="Bai1_Tuan2.ui" />
+    <QtUic Include="Bai1_Tuan3.ui" />
+    <QtUic Include="Bai2_Tuan1.ui" />
+    <QtUic Include="Bai2_Tuan2.ui" />
+    <QtUic Include="Bai2_Tuan3.ui" />
+    <QtUic Include="Bai3_Tuan1.ui" />
+    <QtUic Include="Bai3_Tuan2.ui" />
+    <QtUic Include="Bai3_Tuan3.ui" />
+    <QtUic Include="Bai4_Tuan1.ui" />
+    <QtUic Include="Bai4_Tuan2.ui" />
+    <QtUic Include="Bai4_Tuan3.ui" />
+    <QtUic Include="Bai5_Tuan1.ui" />
+    <QtUic Include="Bai5_Tuan3.ui" />
+    <QtUic Include="Bai6_Tuan1.ui" />
+    <QtUic Include="Bai6_Tuan3.ui" />
+    <QtUic Include="Bai7_Tuan1.ui" />
+    <QtUic Include="Bai7_Tuan3.ui" />
+    <QtUic Include="Bai8_Tuan1.ui" />
+    <QtUic Include="Bai8_Tuan3.ui" />
+    <QtUic Include="Bai9_Tuan1.ui" />
+    <QtUic Include="Bai9_Tuan3.ui" />
+    <QtUic Include="HomeworkGUI.ui" />
+    <QtMoc Include="HomeworkGUI.h" />
+    <ClCompile Include="HomeworkGUI.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="Tuan1.ui" />
+    <QtUic Include="Tuan2.ui" />
+    <QtUic Include="Tuan3.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai1_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai2_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai3_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai4_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai8_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai9_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai10_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai11_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai12_Tuan1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Tuan2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai1_Tuan2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai2_Tuan2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai3_Tuan2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai4_Tuan2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Tuan3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai1_Tuan3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai10_Tuan3.h" />
+    <QtMoc Include="Bai9_Tuan3.h" />
+    <QtMoc Include="Bai7_Tuan3.h" />
+    <QtMoc Include="Bai6_Tuan3.h" />
+    <QtMoc Include="Bai5_Tuan3.h" />
+    <QtMoc Include="Bai4_Tuan3.h" />
+    <QtMoc Include="Bai3_Tuan3.h" />
+    <QtMoc Include="Bai2_Tuan3.h" />
+    <QtMoc Include="Bai8_Tuan3.h" />
+    <QtMoc Include="Bai11_Tuan3.h" />
+    <QtMoc Include="Bai12_Tuan3.h" />
+    <QtMoc Include="Bai13_Tuan3.h" />
+    <QtMoc Include="Bai5_Tuan1.h" />
+    <QtMoc Include="Bai6_Tuan1.h" />
+    <QtMoc Include="Bai7_Tuan1.h" />
+    <ClInclude Include="funtion.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

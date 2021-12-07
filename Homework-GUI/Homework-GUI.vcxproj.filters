@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Bai1_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai2_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai3_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai4_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai8_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai9_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai10_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai11_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai12_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai1_Tuan2.cpp">
+      <Filter>Source Files\Tuan 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai2_Tuan2.cpp">
+      <Filter>Source Files\Tuan 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai3_Tuan2.cpp">
+      <Filter>Source Files\Tuan 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai4_Tuan2.cpp">
+      <Filter>Source Files\Tuan 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuan3.cpp">
+      <Filter>Source Files\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuan2.cpp">
+      <Filter>Source Files\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuan1.cpp">
+      <Filter>Source Files\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeworkGUI.cpp">
+      <Filter>Source Files\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai1_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="funtion.cpp">
+      <Filter>Source Files\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai2_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai3_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai4_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai5_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai6_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai7_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai9_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai10_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai8_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai11_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai12_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai13_Tuan3.cpp">
+      <Filter>Source Files\Tuan 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai5_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai6_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bai7_Tuan1.cpp">
+      <Filter>Source Files\Tuan 1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Bai1_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai2_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai3_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai4_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai8_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai9_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai10_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai11_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai12_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai1_Tuan2.h">
+      <Filter>Header Files\Tuan 2</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai2_Tuan2.h">
+      <Filter>Header Files\Tuan 2</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai3_Tuan2.h">
+      <Filter>Header Files\Tuan 2</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai4_Tuan2.h">
+      <Filter>Header Files\Tuan 2</Filter>
+    </QtMoc>
+    <QtMoc Include="Tuan3.h">
+      <Filter>Header Files\Root</Filter>
+    </QtMoc>
+    <QtMoc Include="Tuan2.h">
+      <Filter>Header Files\Root</Filter>
+    </QtMoc>
+    <QtMoc Include="Tuan1.h">
+      <Filter>Header Files\Root</Filter>
+    </QtMoc>
+    <QtMoc Include="HomeworkGUI.h">
+      <Filter>Header Files\Root</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai1_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai2_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai3_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai4_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai5_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai6_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai7_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai9_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai10_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai8_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai11_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai12_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai13_Tuan3.h">
+      <Filter>Header Files\Tuan 3</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai5_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai6_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+    <QtMoc Include="Bai7_Tuan1.h">
+      <Filter>Header Files\Tuan 1</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="HomeworkGUI.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Bai1_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai2_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai3_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai4_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai8_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai9_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai10_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai11_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai12_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai1_Tuan2.ui">
+      <Filter>Form Files\Tuan 2</Filter>
+    </QtUic>
+    <QtUic Include="Bai2_Tuan2.ui">
+      <Filter>Form Files\Tuan 2</Filter>
+    </QtUic>
+    <QtUic Include="Bai3_Tuan2.ui">
+      <Filter>Form Files\Tuan 2</Filter>
+    </QtUic>
+    <QtUic Include="Bai4_Tuan2.ui">
+      <Filter>Form Files\Tuan 2</Filter>
+    </QtUic>
+    <QtUic Include="Bai1_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Tuan3.ui">
+      <Filter>Form Files\Root</Filter>
+    </QtUic>
+    <QtUic Include="Tuan2.ui">
+      <Filter>Form Files\Root</Filter>
+    </QtUic>
+    <QtUic Include="Tuan1.ui">
+      <Filter>Form Files\Root</Filter>
+    </QtUic>
+    <QtUic Include="HomeworkGUI.ui">
+      <Filter>Form Files\Root</Filter>
+    </QtUic>
+    <QtUic Include="Bai2_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai3_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai4_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai5_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai6_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai7_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai9_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai10_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai8_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai11_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai12_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai13_Tuan3.ui">
+      <Filter>Form Files\Tuan 3</Filter>
+    </QtUic>
+    <QtUic Include="Bai5_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai6_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+    <QtUic Include="Bai7_Tuan1.ui">
+      <Filter>Form Files\Tuan 1</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files\Tuan 1">
+      <UniqueIdentifier>{40c5d745-8850-4d1d-8864-45a3ee426691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Tuan 2">
+      <UniqueIdentifier>{ca70d834-a7f8-404a-8b59-4bf957cf9c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Tuan 3">
+      <UniqueIdentifier>{d8d3676e-5861-4b03-bdef-bfbd0fbf9209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tuan 2">
+      <UniqueIdentifier>{97f6a505-3e03-4e47-ba0a-af326aa78788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tuan 1">
+      <UniqueIdentifier>{8213e832-f06f-44d5-b991-0f3712082076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tuan 3">
+      <UniqueIdentifier>{2f7bef0f-1bb8-4baf-a39f-186402a8da13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tuan 1">
+      <UniqueIdentifier>{2b10905f-0e3f-4c80-b432-f83c0bde44aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tuan 2">
+      <UniqueIdentifier>{f6b14320-b1c7-4db9-878f-045dac2e63c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Root">
+      <UniqueIdentifier>{e4f46d59-5f97-40e3-8d53-a48ee4a62aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Root">
+      <UniqueIdentifier>{2817dc93-d086-415f-87e7-5c60861e6915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Root">
+      <UniqueIdentifier>{5c06dfce-3c41-4a2b-a889-8d1174ce04a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tuan 3">
+      <UniqueIdentifier>{3b2f1628-91e1-4d6f-8122-b6888adcfb09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="funtion.h">
+      <Filter>Header Files\Root</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
